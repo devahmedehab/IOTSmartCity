@@ -9,31 +9,48 @@
 <table width="100%">
   <tr>
     <td width="33.3%" align="center">
-      Onboarding1
+      Onboarding Page
     </td>
-        <td width="33.3%" align="center">
-      Onboarding2
-    </td>
-    <td width="33.3%" align="center">
-      Onboarding3
-    </td>
+     
 
   </tr>
   <tr>
   <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813331-89315f1f-a170-42a7-85dc-3d209ea91ff1.jpg"/></td>
-     <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813335-35a11601-d048-483a-a769-8a66b76e25aa.jpg"/></td>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813339-55022e1b-a808-404e-b1de-ed53a7bfb5ff.jpg"/></td>
-<table width="100%">
+    
+  
+  
+  </tr>
   <tr>
     <td width="33.3%" align="center">
-      Onboarding4
+       Register Page 
     </td>
         <td width="33.3%" align="center">
-      Onboarding5
-   </tr>
+     Login Page 
+    </td>
+        <td width="33.3%" align="center">
+      Change Pass Page
+    </td>
+  </tr>
   <tr>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597011-f6ca84e6-9f11-4dbe-945e-df792ba1173f.jpg"/></td>
-     <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597186-6ebf48e0-fede-46c7-9568-c92a0369c66f.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813420-2313793a-bd59-4e89-ad55-5df6bd6d10c1.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813415-1aec06ca-a8dd-4462-a1cd-192b559f9e40.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813226-75ed5b70-a874-4a80-b4bd-e48b70bc2580.jpg"/></td>
+  </tr>
+   <tr>
+    <td width="33.3%" align="center">
+       Profile Page 
+    </td>
+        <td width="33.3%" align="center">
+       Edit Profile Page 
+    </td>
+        <td width="33.3%" align="center">
+      Settings Page
+    </td>
+  </tr>
+  <tr>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813392-a7787fb5-9ae8-4ea9-959c-f5feeb6f1076.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813313-aedf2cde-3836-4be5-977e-166596fc4462.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813414-dbc0f75d-cd95-49b4-a9d2-1a3b06b1699b.jpg"/></td>
       
      
 
@@ -51,42 +68,49 @@
 
   </tr>
   <tr>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597011-f6ca84e6-9f11-4dbe-945e-df792ba1173f.jpg"/></td>
-     <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597186-6ebf48e0-fede-46c7-9568-c92a0369c66f.jpg"/></td>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597184-4b17ed2a-7b35-4212-8d1c-edabae665a05.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813371-04ffb34a-71be-4d1e-9498-16b41674be0f.jpg"/></td>
+     <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813360-3402e91b-9c6d-473e-b68a-7fbde2e5c167.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813234-6b3331f7-7b7c-48ff-a310-642056aa1f2a.jpg"/></td>
  
-  </tr>
+ <table width="100%">
   <tr>
     <td width="33.3%" align="center">
-       Register Page 
+      Home Page
     </td>
         <td width="33.3%" align="center">
-     Login Page 
+      Living Room Page 
     </td>
-        <td width="33.3%" align="center">
-      Change Pass Page
-    </td>
-  </tr>
-  <tr>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597116-02fd2476-2d81-4ed5-ba12-01db87f70121.jpg"/></td>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597113-5318d547-b1dc-4640-a8c0-674d4a840a3a.jpg"/></td>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597094-7e5fbc8b-b5fb-4fe7-81f2-38f269053276.jpg"/></td>
-  </tr>
-   <tr>
     <td width="33.3%" align="center">
-       Welcome Page 
+      Roof Page
     </td>
-        <td width="33.3%" align="center">
-      Profile Page 
-    </td>
-        <td width="33.3%" align="center">
-      Settings Page
-    </td>
+
   </tr>
   <tr>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/162597187-735d57fb-9df9-4ee4-8bf8-ad2995e003e1.jpg"/></td>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/159190673-fb2a64e5-8e39-45bb-84fe-eaa3a2b06dea.jpg"/></td>
-  <td width="33.3%"><img src="https://user-images.githubusercontent.com/78452508/159190221-1d2cc077-04d2-41c5-9d7e-3f4d924b7e52.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813318-b71ff401-4c28-4e8f-9444-8bd2b8726e76.jpg"/></td>
+     <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813325-34a60624-7398-458a-8dcf-ece0baeab5a5.jpg"/></td>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813413-9e62fe54-241a-4980-a150-1a5aaae2bf0c.jpg"/></td>
+  
+  <table width="100%">
+  <tr>
+    <td width="33.3%" align="center">
+      ForgetPass Page
+    </td>
+        <td width="33.3%" align="center">
+      Vreify OTP Page 
+    </td>
+     <td width="33.3%" align="center">
+      Rest Pass Page 
+    </td>
+    
+
+  </tr>
+  <tr>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179817737-c9ae650b-5a0a-452c-839d-2c95781d0f63.jpg"/></td>
+     <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813431-90e7da6f-e3da-436e-a873-877d3f0b9e89.jpg"/></td>
+     <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179813404-e533ea9e-3bd0-4056-ab7b-b661f46b8962.jpg"/></td>
+ 
+
+ 
   </tr>
 </table>
 
