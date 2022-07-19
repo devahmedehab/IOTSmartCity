@@ -120,6 +120,27 @@ https://www.tinkercad.com/things/kvixmOQ5Fgf-phase-1-parking-done
 <br />
 ![](https://user-images.githubusercontent.com/78452508/159190822-e30cf578-e564-49d7-a2c5-11b9ed6853a0.png)
 
+  </tr>
+</table>
+
+## Models
+ <table width="100%">
+  <tr>
+    <td width="33.3%" align="center">
+      Model
+    </td>
+        <td width="33.3%" align="center">
+      Model 1
+    </td>
+     <td width="33.3%" align="center">
+      Model 2
+    </td>
+  </tr>
+  <tr>
+  <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179819753-3dd0d69d-89df-48b8-b307-d5128c96b4cd.jpg"/></td>
+     <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179819749-2c9ec4f8-3e20-4d19-9e02-7369601a0042.jpg"/></td>
+     <td width="33.3%"><img src="https://user-images.githubusercontent.com/89398483/179819754-dceaffd3-39b5-4480-9273-978f3e2dcc68.jpg"/></td>
+
 
 
  
