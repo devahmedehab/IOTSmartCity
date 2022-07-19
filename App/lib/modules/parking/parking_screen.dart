@@ -1,0 +1,216 @@
+import 'package:flutter/material.dart';
+import 'package:smart_city/shared/components/components.dart';
+import 'package:smart_city/shared/style/icon_broken.dart';
+
+import 'Search_Screen.dart';
+import 'num_of_parking.dart';
+
+class ParkingScreen extends StatelessWidget {
+  var newController = TextEditingController();
+  final List<String> cites = <String>[
+    'Cairo',
+    'Alexandria',
+    'Giza',
+  ];
+
+
+  @override
+  Widget build(BuildContext context) {
+    Size size=MediaQuery.of(context).size;
+    return Scaffold(
+
+      body: Column(
+        children: [
+          Container(
+
+              child: Padding(
+                padding: EdgeInsets.only(left:size.height*.0190,right:5 ,top: size.width*.03),
+                child: Row(
+                  children: [
+
+                    InkWell(
+                      onTap: () async {
+                        showSearch(
+                            context: context, delegate: CitySearch());
+
+                        final results = await showSearch(
+                            context: context, delegate: CitySearch());
+
+                        print('Result: $results');
+                      },
+                      child: Container(
+                        width: size.width*.9,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.only(
+                              topLeft: Radius.circular(20),
+                              topRight: Radius.circular(20),
+                              bottomLeft: Radius.circular(10),
+                            )
+                        ),
+                        child: Row(
+                          children: [
+                            Padding(
+                              padding:  EdgeInsets.all(10.0),
+                              child: Text(
+                                'Search ...',
+                                style: TextStyle(
+                                  color: Colors.grey[600],
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w700,
+                                  fontStyle: FontStyle.italic,
+                                ),
+                              ),
+                            ),
+                            Spacer(),
+                            Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: IconButton(
+                                  icon: Icon(
+                                    IconBroken.Search,
+                                    color: Colors.grey[600],
+                                  ),
+                                  onPressed: () async {
+                                    showSearch(
+                                        context: context,
+                                        delegate: CitySearch());
+
+                                    final results = await showSearch(
+                                        context: context,
+                                        delegate: CitySearch());
+
+                                    print('Result: $results');
+                                  },
+                                )),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              )),
+          SizedBox(
+            height: 10,
+          ),
+          Expanded(child:
+          SingleChildScrollView(
+            child: ListView.separated(
+              physics: NeverScrollableScrollPhysics(),
+              shrinkWrap: true,
+              itemBuilder: (context, index) =>
+                  buildChatItem(cites[index], context, index),
+              separatorBuilder: (context, index) => SizedBox(
+                height: 2.0,
+              ),
+              itemCount: cites.length,
+            ),
+          ),
+          )
+
+        ],
+      ),
+    );
+  }
+}
+
+Widget buildChatItem(
+    String city,
+    BuildContext context,
+    index,
+    ) =>
+    InkWell(
+      borderRadius: BorderRadius.all(Radius.circular(40)),
+      onTap: () {
+        navigateTo(
+            context,
+            NumOfParking(
+              city: city,
+            )
+        );
+      },
+      child:Padding(
+        padding: EdgeInsets.only(left: 10,right: 10),
+        child: Card(
+          shadowColor: Colors.black,
+          elevation: 40,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(20),
+                topRight: Radius.circular(50),
+                bottomLeft: Radius.circular(10),
+              )),
+          //  color: Colors.blue,
+          child: Padding(
+            padding: const EdgeInsets.only(top: 12,left: 10,bottom: 12),
+            child: Container(
+              child: Row(
+                children: [
+                  Stack(
+                    alignment: AlignmentDirectional.bottomEnd,
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.grey,
+                        radius: 36,
+                        backgroundImage: AssetImage('assets/images/1.jpeg'),
+                      ),
+                    ],
+                  ),
+                  SizedBox(
+                    width: 10.0,
+                  ),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Text(
+                                '${city}',
+                                style: TextStyle(
+                                    fontSize: 16.0,
+                                    fontWeight: FontWeight.bold),
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              'Num of Parking: 3',
+                            ),
+                            Spacer(),
+                            Row(
+                              children: [
+                                Container(
+                                  width: 8.0,
+                                  height: 8.0,
+                                  decoration: BoxDecoration(
+                                      color: Colors.green,
+                                      shape: BoxShape.circle),
+                                ),
+                                SizedBox(
+                                  width: 7,
+                                ),
+                                Text('Available : 2'),
+                                SizedBox(
+                                  width: 12,
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ) ,
+      ),
+    );
