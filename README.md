@@ -3,7 +3,7 @@
 > IoT smart city graduation project
 
 ## Download App
-<a href="https://github.com/ahmedehab122/IOTSmartCity/releases/download/v1/SmartIoT.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://github.com/ahmedehab122/IOTSmartCity/releases/download/v1/final._heroco.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 
 ## Screenshots
 <table width="100%">
